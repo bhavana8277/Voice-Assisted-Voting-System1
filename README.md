@@ -126,14 +126,6 @@ Run
 npm run dev
 ```
 
----
-
-## 📸 Screenshots
-
-(Add screenshots here)
-
----
-
 ## 👩‍💻 Author
 
 **Bhavana Siddappa Pujari**
