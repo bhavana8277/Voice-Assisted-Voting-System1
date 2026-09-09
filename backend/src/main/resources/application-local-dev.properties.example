@@ -1,0 +1,9 @@
+# Copy this file to application-local-dev.properties for local collaboration.
+# Choose private account IDs and passwords; never commit the copied file.
+app.local-development-accounts.enabled=true
+app.local-development-accounts.admin-id=YOUR_LOCAL_ADMIN_ID
+app.local-development-accounts.admin-password=CHOOSE_A_PRIVATE_PASSWORD
+app.local-development-accounts.polling-officer-id=YOUR_LOCAL_POLLING_ID
+app.local-development-accounts.polling-officer-password=CHOOSE_A_PRIVATE_PASSWORD
+app.local-development-accounts.election-officer-id=YOUR_LOCAL_ELECTION_ID
+app.local-development-accounts.election-officer-password=CHOOSE_A_PRIVATE_PASSWORD

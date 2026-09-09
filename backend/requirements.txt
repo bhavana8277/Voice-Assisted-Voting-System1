@@ -1,0 +1,7 @@
+# Face capture and verification
+opencv-python
+face-recognition
+numpy
+
+# Local speech transcription
+faster-whisper

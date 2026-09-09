@@ -1,0 +1,26 @@
+# Local environments and editor state
+.venv/
+.venv-*/
+.venv311/
+.vscode/
+.idea/
+
+# Generated application data and secrets
+backend/database/
+backend/face_dataset/
+backend/encodings/
+backend/trainer/
+backend/temp/
+backend/.m2/
+backend/.env
+backend/src/main/resources/application-local-dev.properties
+frontend/.env
+
+# Build output and local dependencies
+backend/target/
+frontend/node_modules/
+frontend/dist/
+
+# Local media captures
+*.wav
+*.webm

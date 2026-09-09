@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+.face-container{
+    min-height:100vh;
+    background:linear-gradient(135deg,#edf4ff,#f7f9fc);
+    padding:50px;
+}
+
+.back-btn{
+    background:#1e293b;
+    color:#fff;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.back-btn:hover{
+    background:#111827;
+}
+
+.face-container h1{
+    margin:30px 0;
+    font-size:48px;
+    color:#1e293b;
+}
+
+.face-card{
+    width:700px;
+    margin:auto;
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 35px rgba(0,0,0,.12);
+}
+
+.face-card label{
+    display:block;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+    color:#334155;
+}
+
+.face-card select{
+    width:100%;
+    padding:15px;
+    font-size:17px;
+    border:1px solid #dbe3ef;
+    border-radius:12px;
+    margin-bottom:30px;
+    outline:none;
+}
+
+.face-card select:focus{
+    border-color:#2563eb;
+}
+
+.camera-box{
+    border:2px dashed #94a3b8;
+    border-radius:16px;
+    padding:40px;
+    text-align:center;
+    background:#f8fafc;
+    margin-bottom:30px;
+}
+
+.camera-icon{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.camera-box h3{
+    color:#1e293b;
+    margin-bottom:10px;
+}
+
+.camera-box p{
+    color:#64748b;
+    line-height:1.7;
+}
+
+.progress-title{
+    font-size:22px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.progress{
+    width:100%;
+    height:14px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    height:100%;
+    width:0%;
+    background:linear-gradient(90deg,#2563eb,#3b82f6);
+    transition:.4s;
+}
+
+.status{
+    margin:20px 0;
+    font-size:17px;
+    text-align:center;
+    color:#16a34a;
+    font-weight:600;
+}
+
+.capture-btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(90deg,#2563eb,#3b82f6);
+    color:white;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.capture-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(37,99,235,.35);
+}
