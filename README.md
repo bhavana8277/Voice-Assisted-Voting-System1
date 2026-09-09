@@ -40,6 +40,12 @@ Set a `VOTE_ENCRYPTION_KEY` before starting the API. It must be a Base64-encoded
 
 The API runs on `http://localhost:8080` by default.
 
+## Local database
+
+The `backend/database/` folder is intentionally not committed. It can contain voter records, ballot data, and other local development state. When the backend starts, SQLite creates a fresh local `backend/database/voting.db` as needed.
+
+Do not commit a real database, biometric images, encryption keys, or production credentials. For a shared demo environment, use a separate sanitized seed script or an empty database template.
+
 ## Security note
 
 This is a local prototype. Do not commit runtime databases, biometric images, encryption keys, or production credentials.
